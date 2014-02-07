@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+}
+.graph-wrapper {
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+    border-style:solid;
+    border-width:2px;
+    border-color: #CCCCCC;
+    box-shadow: 10px 10px 15px #CCCCCC;
+    -webkit-box-shadow: 10px 10px 15px rgba(204,204,204, 0.75);
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+li {
+    float:left;
+}
+
+a:link,a:visited {
+    display:block;
+    width:100px;
+    font-weight:bold;
+    color:#CCCCCC;
+    background-color:transparent;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+a:hover,a:active {
+}
