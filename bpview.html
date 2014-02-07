@@ -1,0 +1,82 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="include/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="Genospace/css/shared.css">
+    </head>
+    <body style>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <!--<div class="navbar-inner">-->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-genospace" href="#">GenoSpace</a>
+                </div>
+                <!-- <div class="container"> -->
+                <div class="navbar-collapse navbar-responsive-collapse collapse" style="height:auto;">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Upload</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                    </form>
+                    <!-- .nav-collapse  -->
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Views 
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="genome.html">Genome View</a></li>
+                <li><a href="chromosome.html">Chromosome View</a></li>
+                <li><a href="geneview.html">Gene View</a></li>
+                <li><a href="bpview.html">Base Pair View</a></li>
+            </ul>
+        </div>
+        <center><img src="images/key.png" width="500"</center>
+
+        <!-- <h1 style="text-align: center;">Base Pair View</h1> -->
+
+        <center><img src="images/bp.png" width="1000"></center>
+
+
+    </body>
+    <script src="include/jquery/jquery.js"></script>
+    <script src="include/underscore/underscore.js"></script>
+    <script src="include/d3/d3.v3.js"></script>
+    <script src="include/backbone/backbone.js"></script>
+    <script src="include/highcharts/js/highcharts.js"></script>
+    <script src="include/highcharts/js/modules/exporting.js"></script>
+    <script src="include/bootstrap/js/bootstrap.js"></script>
+   
+    <script src="GenoSpace/shared.js"></script>
+    <script src="GenoSpace/panels/panel_update.js"></script>
+    <script src="GenoSpace/panels/panel_model.js"></script>
+    <script src="GenoSpace/panels/panel_view.js"></script>
+    <script src="GenoSpace/panels/stack/stack_model.js"></script>
+    <script src="GenoSpace/panels/stack/stack_view.js"></script>
+   
+    <script src="stack_mock_data.js"></script>
+</html>
